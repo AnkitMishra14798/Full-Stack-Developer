@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        div {
+            float: left;
+            padding: 5px;
+            background-attachment: fixed;
+        }
+
+        .r1 {
+            width: 100%;
+
+        }
+
+        .c1 {
+            width: 25%;
+            text-align: right;
+
+        }
+
+        .c2 {
+            width: 25%;
+            text-align: right;
+            padding-top: 30px;
+        }
+
+        .ic {
+            color: brown;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .r2 {
+            width: 100%;
+            color: white;
+            background-color: darkblue;
+        }
+
+        .aa {
+            padding: 10px;
+        }
+
+        .aa>li {
+            display: inline;
+            padding: 15px;
+            font-size: 15px;
+        }
+
+        .aa>li:hover {
+            color: red;
+        }
+
+        .r3 {
+            width: 100%;
+            background-image: url('srimtbnr.jpg');
+            background-size: cover;
+            height: 830px;
+        }
+
+        .dblue {
+            background-color: darkblue;
+            color: white;
+            width: 430px;
+            height: 370px;
+            position: relative;
+            top: 430px;
+            left: 150px;
+
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .s1 {
+            font-size: 15px;
+            padding-left: 70px;
+        }
+
+        .box {
+
+            background-color: white;
+            color: blue;
+            width: 200px;
+            height: 230px;
+            position: relative;
+            top: 555px;
+            left: 160px;
+            margin: 15px;
+            font-size: 30px;
+            border-bottom: solid 4px blue;
+        }
+
+        .icon {
+            color: brown;
+            padding-top: 20px;
+            margin-left: 15px;
+        }
+
+        .p1 {
+            font-size: 18px;
+            margin-left: 15px;
+            padding-top: 10px;
+        }
+
+        .btn {
+            border: none;
+            background-color: rgb(212, 23, 23);
+            font-size: 15px;
+            margin-left: 15px;
+            border-radius: 8%;
+            padding: 5px;
+            margin-top: 10px;
+            color: aliceblue;
+        }
+
+        .bb {
+            background-color: white;
+            width: 60%;
+            color: blue;
+        }
+
+        .p2 {
+            padding-top: 40px;
+            padding-left: 115px;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .img1 {
+            padding-left: 280px;
+
+        }
+
+        .p3 {
+
+            width: 100%;
+            font-size: 18px;
+            padding-left: 100px;
+            padding-right: 20px;
+            margin: 10px;
+            color: black;
+            text-align: justify;
+        }
+
+        .logo {
+            width: 15px;
+        }
+
+        .p4 {
+            width: 100%;
+            padding-top: 40px;
+            padding-left: 30px;
+            font-size: 35px;
+        }
+
+        .img2 {
+            width: 430px;
+            padding-left: 25px;
+        }
+
+        .img3 {
+            float: left;
+            padding-top: 10px;
+            width: 10%;
+            border: solid 1px black;
+
+        }
+
+        .p5 {
+
+            font-size: 18px;
+            margin: 5px;
+            font-size: 25px;
+
+
+        }
+
+        .btn2 {
+
+            border: none;
+            background-color: rgb(212, 23, 23);
+            font-size: 15px;
+            padding-top: 40px;
+            margin-left: 305px;
+            border-radius: 8%;
+            padding: 5px;
+            margin-top: 10px;
+            color: aliceblue;
+        }
+
+        .pg2 {
+            font-size: 16px;
+            color: black;
+        }
+
+        .btn3 {
+            background-color: darkcyan;
+            padding: 2px 10px;
+            border-radius: 5px;
+            margin-left: 62px;
+            margin-top: 20px;
+        }
+
+        .part1 {
+            margin-left: 5px;
+            padding-top: 45px;
+            width: 39%;
+            color: blue;
+            float: right;
+            font-size: 30px;
+        }
+
+        .part2 {
+            width: 100%;
+        }
+
+        .post {
+            margin-left: 25px;
+        }
+
+        .picsr {
+            float: left;
+
+            width: 40px;
+            border: solid 1px black;
+
+        }
+
+        .lko {
+
+            width: 100%;
+            font-size: 20px;
+            color: darkblue;
+        }
+
+        .foll {
+
+            font-size: 14px;
+            color: black;
+        }
+
+        .pt {
+            background-color: white;
+            width: 62%;
+            position: relative;
+            top: 25px;
+
+        }
+
+        .img4 {
+            padding-top: 30px;
+            width: 450px;
+            height: 500px;
+        }
+
+        .black {
+            background-color: black;
+            width: 100%;
+            margin-top: 40px;
+            height: 100px;
+            background-attachment: fixed;
+        }
+
+        .r5 {
+            background-image: url(infra2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 650px;
+
+        }
+
+        .box2 {
+            width: 75%;
+            background-color: darkblue;
+            height: 500px;
+            margin: 5% 10% 5% 15%;
+
+        }
+
+        .d1 {
+            width: 31%;
+            color: white;
+            font-size: 40px;
+            margin: 1%;
+            margin-top: 15px;
+        }
+
+        ul {
+            font-size: 15px;
+            color: white;
+            margin-top: 10px;
+
+        }
+
+        .l1 {
+            font-size: 15px;
+            color: white;
+            margin-top: 18px;
+
+
+        }
+
+        .l2 {
+            font-size: 15px;
+            color: white;
+            margin-top: 3px;
+        }
+
+        .box3 {
+            width: 100%;
+            background-color: red;
+            text-align: center;
+            height: 350px;
+            margin: 10px 5px 10px 5px;
+
+        }
+
+        .btn4 {
+            font-size: 18px;
+            background-color: red;
+            border: 1px solid white;
+            color: wheat;
+            border-radius: 22px;
+            padding: 10px 20px 10px 20px;
+
+        }
+
+        .btn5 {
+            font-size: 18px;
+            background-color: red;
+            border: 1px solid white;
+            color: wheat;
+            border-radius: 22px;
+            padding: 10px 31px 10px 31px;
+            margin-top: 10px;
+        }
+
+        .btn6 {
+            font-size: 18px;
+            background-color: red;
+            border: 1px solid white;
+            color: wheat;
+            border-radius: 22px;
+            padding: 10px 43px 10px 43px;
+            margin-top: 10px;
+        }
+
+        .btn7 {
+            font-size: 18px;
+            background-color: red;
+            border: 1px solid white;
+            color: wheat;
+            border-radius: 22px;
+            padding: 10px 40px 10px 40px;
+            margin-top: 10px;
+        }
+
+        .btn8 {
+            font-size: 18px;
+            background-color: red;
+            border: 1px solid white;
+            color: wheat;
+            border-radius: 22px;
+            padding: 10px 65px 10px 65px;
+            margin-top: 10px;
+        }
+
+        .btn9 {
+            font-size: 18px;
+            background-color: red;
+            border: 1px solid white;
+            color: wheat;
+            border-radius: 22px;
+            padding: 10px 80px 10px 80px;
+            margin-top: 10px;
+        }
+
+
+
+        .r6 {
+            width: 100%;
+            background-color: white;
+        }
+
+        .our {
+            font-size: 45px;
+        }
+
+        .r61 {
+            width: 50%;
+            font-size: 30px;
+            color: darkblue;
+
+        }
+
+        .bio {
+            font-size: 15px;
+            color: black;
+            margin-top: 10px;
+
+        }
+
+        .r6h {
+            font-size: 30px;
+            margin-top: 5px;
+            color: brown;
+        }
+
+        .direct {
+            font-size: 17px;
+            color: black;
+            margin-top: 10px;
+        }
+
+        .r62 {
+            background-color: white;
+            color: black;
+            width: 50%;
+            border-bottom: solid brown 5px;
+            border-right: solid brown 5px;
+            border-radius: 10px;
+        }
+
+        .course {
+            font-size: 30px;
+            margin-left: 270px;
+
+        }
+
+        .course1 {
+            margin-left: 155px;
+            margin-top: 10px;
+            font-size: 17px;
+        }
+
+        .r62a {
+            width: 48%;
+            margin-right: 10px;
+
+        }
+
+        .name {
+            font-size: 18px;
+            color: black;
+        }
+
+        .border1 {
+            border: 1px solid rgb(32, 30, 30);
+            width: 100%;
+            height: 35px;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-top: 5px;
+        }
+
+        .btn10 {
+            border-color: red;
+            background-color: rgb(218, 18, 18);
+            color: white;
+            width: 80%;
+            text-align: center;
+            height: 40px;
+            border-radius: 20px;
+            margin-top: 15px;
+        }
+
+        .r62b {
+            width: 48%;
+            margin-left: 12px;
+
+        }
+
+
+        .r7 {
+            background-image: url(Activity.jpg);
+
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 650px;
+            background-attachment: fixed;
+        }
+
+        .activity {
+            color: white;
+            font-size: 50px;
+            margin-top: 50px;
+        }
+
+        .box4 {
+            width: 23%;
+            height: 300px;
+            color: white;
+            border: 1px solid white;
+            margin-left: 10%;
+            margin-top: 6%;
+
+        }
+
+        .box5 {
+            width: 23%;
+            height: 300px;
+            color: white;
+            border: 1px solid white;
+            margin-left: 5%;
+            margin-top: 6%;
+        }
+
+        .box6 {
+            width: 23%;
+            height: 300px;
+            color: white;
+            border: 1px solid white;
+            margin-left: 5%;
+            margin-top: 6%;
+        }
+
+        .sports {
+            font-size: 24px;
+            margin-top: 60px;
+            color: gold;
+        }
+
+        .sports1 {
+            font-size: 17px;
+            margin-top: 10px;
+            color: white;
+
+        }
+
+        .btn11 {
+            border: 1px solid white;
+            color: white;
+            padding: 10px 35px 10px 35px;
+            margin-top: 10px;
+            border-radius: 20px;
+            background-color: red;
+        }
+
+        .r8 {
+            width: 100%;
+            height: 600px;
+
+        }
+
+        .institute {
+            font-size: 50px;
+            color: brown;
+            margin-top: 40px;
+            text-align: center;
+
+        }
+
+
+        .r8a {
+            /**background-image: url(aboutus.jpg); */
+            width: 25%;
+            margin-left: 10px;
+            margin-top: 15px;
+            margin-left: 150px;
+            background-size: 100% 250px;
+            background-repeat: no-repeat;
+            border: solid 1px red;
+
+        }
+
+        .r8b {
+            /* background-image: url(workshop.jpg);*/
+            width: 25%;
+            margin-top: 15px;
+            margin-left: 50px;
+            background-size: 100% 230px;
+            border: solid 1px red;
+            background-repeat: no-repeat;
+
+        }
+
+        .r8c {
+            /*background-image: url(srimtbnr.jpg);*/
+            width: 25%;
+            margin-top: 15px;
+            margin-left: 50px;
+            background-repeat: no-repeat;
+            background-size: 100% 250px;
+            border: solid 1px red;
+
+        }
+
+        .border2 {
+            background-color: white;
+            color: brown;
+            font-size: 38px;
+            margin-top: 208px;
+            width: 70%;
+            padding-top: 5px;
+            text-align: center;
+        }
+
+        .border3 {
+            background-color: white;
+            color: brown;
+            font-size: 38px;
+            margin-top: 190px;
+            width: 70%;
+            padding-top: 5px;
+        }
+
+        .about {
+            font-size: 17px;
+            color: black;
+            text-align: justify;
+        }
+
+        .btn12 {
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            padding: 5px 20px 5px 20px;
+            margin-top: 15px;
+            border-radius: 20px;
+
+        }
+
+        .b {
+            border-bottom: 2px solid red;
+            border-top: 2px solid red;
+        }
+
+        .r9 {
+            background-color: darkblue;
+            color: white;
+            width: 100%;
+        }
+
+        .r9a {
+            width: 70%;
+
+        }
+
+        .why {
+            font-size: 60px;
+            margin-top: 50px;
+            margin-left: 150px;
+
+        }
+
+        .st {
+            font-size: 28px;
+            margin-left: 150px;
+            margin-top: 5px;
+        }
+
+        .an {
+            font-size: 19px;
+            margin-left: 150px;
+            margin-top: 5px;
+
+        }
+
+        .r9b {
+            width: 30%;
+        }
+
+        .call {
+            font-size: 60px;
+            margin-top: 50px;
+        }
+
+        .btn13 {
+            background-color: darkblue;
+            color: white;
+            font-size: 20px;
+            margin-left: 50px;
+            margin-top: 10px;
+            padding: 0px 25px 10px 25px;
+            border-radius: 25px;
+            border: 1px solid white;
+
+        }
+
+        .r10 {
+            background-color: black;
+            width: 100%;
+            height: 600px;
+            color: aliceblue;
+        }
+
+        .cl1 {
+            font-size: 40px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .v1 {
+            font-size: 40px;
+            color: darkblue;
+            margin-top: 20px;
+        }
+
+        .r11 {
+            width: 100%;
+            background-color: black;
+            padding-bottom: 70px;
+        }
+
+        .TPS {
+
+            padding-top: 70px;
+            width: 100%;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+        }
+
+        .img10 {
+            background-color: white;
+            border: solid white;
+            border-radius: 5px;
+            margin-left: 50px;
+            height: 350px;
+            width: 300px;
+        }
+
+        .lgi {
+            padding-top: 100px;
+            float: left;
+            width: 40%;
+            font-size: 30px;
+            color: black;
+        }
+
+        .lgi2 {
+            padding-top: 100px;
+            float: right;
+            width: 60%;
+            font-size: 30px;
+            color: red;
+        }
+
+        .tms {
+            background-color: black;
+            width: 100%;
+            color: aliceblue;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+
+        .tms2 {
+            margin-left: 550px;
+            font-size: 55px;
+        }
+
+        .brd {
+            font-size: 40px;
+            margin-left: 250px;
+            width: 70%;
+            border: solid red 1px;
+        }
+
+        .ptc {
+            background-color: white;
+            width: 100%;
+
+        }
+
+        .ptc1 {
+
+            padding-top: 60px;
+            width: 50%;
+            font-size: 50px;
+            color: black;
+            float: left;
+            padding-left: 350px;
+        }
+
+        .ptc2 {
+
+            padding-top: 60px;
+            width: 50%;
+            font-size: 50px;
+            color: red;
+            float: right;
+
+        }
+
+        .logos {
+            width: 85%;
+            padding-top: 40px;
+            margin-left: 120px
+        }
+
+        .lgs {
+            height: 150px;
+            width: 10%;
+            margin: 5px;
+        }
+
+        .ulcs {
+            background-color: darkblue;
+            width: 100%;
+            padding-bottom: 50px;
+        }
+
+        .ul {
+            background-color: darkblue;
+            color: aliceblue;
+            font-size: 16px;
+            width: 40%;
+            float: left;
+            padding-left: 200px;
+            padding-top: 50px;
+        }
+
+        .cs {
+
+            background-color: darkblue;
+            color: aliceblue;
+            font-size: 15px;
+            width: 60%;
+            float: right;
+            padding-top: 50px;
+            padding-right: 240px;
+
+        }
+
+        .last {
+            width: 100%;
+            font-size: 20px;
+            padding-top: 20px;
+
+        }
+
+        .last1 {
+            width: 50%;
+            float: left;
+
+            margin-left: 145px;
+        }
+
+        .last2 {
+            width: 40%;
+            float: right;
+        }
+
+        /* To make it Responsive */
+        
+    </style>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <div class="r1">
+        <div class="c1"><img src="srimtf.png"></div>
+        <div class="c2"><i class="fa fa-envelope ic"></i>&nbsp;&nbsp;ankitmishra14798@gamil.com</div>
+        <div class="c2"><i class="fa fa-phone ic"></i>&nbsp;&nbsp;8299334783</div>
+        <div class="c2"><i class="fa fa-facebook ic"></i>&nbsp;&nbsp;<i class="fa fa-twitter ic"></i>&nbsp;&nbsp;<i
+                class="fa fa-google-plus ic"></i>&nbsp;&nbsp;<i class="fa fa-linkedin ic">&nbsp;&nbsp;</i> <br><br>
+            <button>Course Enquiry</button>
+        </div>
+    </div>
+    <div class="r2">
+        <b>
+            <ul class="aa">
+                <i class="fa fa-home"></i>&nbsp;&nbsp;
+                <li>About us &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>Governance &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>Academics &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>Admission &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>Facilities &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>Contact &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>Activity & Events &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>E-Resources &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>R&D &nbsp;<i class="fa fa-sort-desc"></i></li>
+                <li>ANTI RAGGING &nbsp;<i class="fa fa-sort-desc"></i></li>
+            </ul>
+        </b>
+    </div>
+    <div class="r3">
+        <div class="dblue">
+            <h1 align="center">Notice Board</h1><br>
+
+            <marquee style="height:260px" direction="up" scrollamount="2" behavior="alternate">
+
+                <h3 class="s1">👉Download Pictures of Teacher's Day-2021</h3>
+                <h3 class="s1">👉DOWNLOAD PICTURES OF INTER COLLEGE SPORTS MEET</h3>
+                <h3 class="s1">👉 DOWNLOAD PICTURES OF THE BIRTHTDAY CELEBRATION OF HON'BLE CHAIRMAN SIR 2021</h3>
+                <h3 class="s1">👉Download Study Material for UPSEE-2020</h3>
+            </marquee>
+        </div>
+        <div class="box"><i class="fa fa-list-alt icon"></i><br><br>&nbsp;&nbsp;B-Tech
+            <p class="p1">B-Tech Course</p>
+            <button class="btn"><b>Enquiry</b></button>
+        </div>
+        <div class="box"><i class="fa fa-list-alt icon"></i><br><br>&nbsp;&nbsp;M-Tech
+            <p class="p1">M-Tech Course</p>
+            <button class="btn"><b>Enquiry</b></button>
+        </div>
+        <div class="box"><i class="fa fa-list-alt icon"></i><br><br>&nbsp;&nbsp;Lateral
+            <p class="p1">Lateral Entry</p>
+            <button class="btn"><b>Enquiry</b></button>
+        </div>
+    </div>
+
+    <div class="bb">
+        <p class="p2">WELCOME TO OUR GROUP OF INSTITUTES</p>
+        <div class="img1">
+            <img src="book.png">
+        </div>
+        <div class="p3">
+            <p><img class="logo" src="quote-1.png"> S R Group was started with the establishment of S R Institute of
+                Management and Technology offering
+                B.Tech programme with 4 branches and 240 seats in the year 2009 by the chairman, Shri Pawan Singh
+                Chauhan under S R educational Trust and is dedicated to Late Subedar Singh and Late Raj Devi, who
+                inspired their son. Subedar Rai Devi Educational Trust founded in the year 2008 is registered under
+                the society registration act of 1860. In 2010 S R Group of Institutions came into existance with
+                establishment of S R M Business School for MBA programme with 120 seats. New courses like PGDM, IMBA
+                (MAM), Bio-Tech, Agricultural Engineering etc. were introduced.The S R Group is spread across 60
+                acres of land.<img class="logo" src="quote-2.png"></p>
+            <br><br>
+            <button class="btn2">READ MORE</button>
+        </div>
+        <div class="pg2">
+            <button class="btn3">👍follow</button>&nbsp;6.6k people are following this.Be the first of your friens
+            to
+            follow this.
+        </div>
+    </div>
+    <div class="part1">
+        <div class="part2">
+            <p class=post>POST FROM FACEBOOK</p>
+            <img src="book.png" style="width: 80%; padding-left: 25px;">
+
+            <div class="pt">
+                <img src="pic1_project_4.jpg" class="picsr">
+                <p class="lko">SR Group Of Institutions, Lko</p>
+                <p class="foll"> 6610 followers</p>
+            </div>
+            <img src="sr1.jpg" class="img4">
+
+        </div>
+    </div>
+
+    </div>
+
+    <div class="r5">
+        <div class="box2">
+            <div class="d1">AWARDS <sub>100+</subs><br>
+                    <ul>
+                        <li>👉 Edupreneur Award (Singapore) 2014</li>
+                        <li>👉Campus Preparedness Award 2015</li>
+                        <li>👉National Education Award 2014</li>
+                        <li> 👉 Education Excellence Award 2015</li>
+                        <li>👉 Awadhi Vikas Samman 2015</li>
+                        <li>👉 National Education Award 2015</li>
+                        <li> 👉Education Excellence Award 2016</li>
+                        <li> 👉National Education Award 2016</li>
+                        <li> 👉UP Gaurav Samman 2016</li>
+                        <li> 👉 Tulsi Samman 2016</li>
+                        <li> 👉UP Ratna Samman 2017</li>
+                        <li> 👉 Education Award 2017</li>
+                        <li> 👉 Awadh Gaurav Samman 2017</li>
+                        <li>👉 i-Next Educationist Award</li>
+                        <li>👉 Indo-Nepal Samarsta Award</li>
+                        <li> 👉 Best Private Engineering</li>
+                        <li>👉College Award 2017</li>
+                    </ul>
+            </div>
+            <div class="d1">
+                <P>ACHIEVMENTS</P>
+
+                <p class="l1">GOLD &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medel in
+                    Shot-Put<br>
+                    STATE LEVEL<br>
+                    --------------------------------------------------------
+                </p>
+                <p class="l2">SILVER &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medel in
+                    Shot-Put<br>
+                    STATE LEVEL<br>
+                    --------------------------------------------------------
+                </p>
+                <p class="l2">SILVER &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medal in Tattoo
+                    Making<br>
+                    STATE LEVEL<br>
+                    --------------------------------------------------------
+                </p>
+                <p class="l2">SILVER &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medel in Ganga
+                    Play<br>
+                    STATE LEVEL<br>
+                    --------------------------------------------------------
+                </p>
+                <p class="l2">BRONZE &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medel in Fashion Show<br>
+                    STATE LEVEL<br>
+                    --------------------------------------------------------
+                </p>
+                <p class="l2">BRONZE &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medel in Group Dance<br>
+                    STATE LEVEL<br>
+                    --------------------------------------------------------
+                </p>
+                <p class="l2">SILVER &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medel in Ganga
+                    Play<br>
+                    STATE LEVEL<br>
+
+                </p>
+            </div>
+
+            <div class="d1">
+                <div class="box3">
+                    <button class="btn4"> 5000+ Students Placed so far </button><br>
+                    <button class="btn5"> 65 Acres Campus Area </button><br>
+                    <button class="btn6"> 4500+ Students </button><br>
+                    <button class="btn7"> 500+ Computers </button><br>
+                    <button class="btn8"> 4000+ Alumni </button><br>
+                    <button class="btn9"> 350+ Faculty </button><br>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="r6">
+        <br>
+        <center>
+            <p CLASS="OUR" style="font-size: 45px;"> OUR COURSES </p>
+            <img src="book.png" style="width: 25%;">
+        </center>
+        <div class="r61">
+            <h6 class="border"> B.Tech &nbsp; &nbsp; M.Tech</h6><br>
+            <p class="r6h"> Bachelor of Technology</p>
+            <ul class="bio">
+                <li>👉Bio-Technology (BT)</li><br>
+                <li>👉Civil Engineering (CE)</li><br>
+                <li>👉Information Technology (IT)</li><br>
+                <li>👉Agriculture Engineering (AG)</li><br>
+                <li>👉Mechanical Engineering (ME)</li><br>
+                <li>👉Computer Science & Engineering (CS)</li><br>
+                <li>👉Electrical & Electronics Engineering (EN)</li><br>
+                <li>👉Electronics & Communication (EC)</li><br>
+
+            </ul>
+            <p class="r6h"> LATERAL ENTRY</p>
+            <p class="direct">👉 Direct Admission in 2nd year throw Lateral ENTRY</p><br>
+        </div>
+        <div class="r62">
+
+            <p class="course"> Course Enquiry </p>
+            <p class="course1"> Fill the following form and we will get back to you shortly.</p><br><br><br>
+            <div class="r62a">
+                <h5 class="name">Your Name *</h5>
+                <p class="border1"></p><br>
+                <h3>Gender</h3>
+                Male <input type="radio" name="m"> &nbsp Female <input type="radio" name="m">
+                <br><br><br>
+                <h3> Applying for *</h3>
+                <p class="border1"> B.Tech(Computer Science)</p>
+                <button class="btn10">Submit</button>
+            </div>
+            <div class="r62b">
+                <h5 class="name">Your mobile</h5>
+                <p class="border1"></p><br>
+                <h3>category*</h3>
+                <p class="border1"> General</p><br>
+                <h4 class="Medium"> Medium(you Come to know about SRIMT)</h4>
+                <p class="border1"> -Select- </p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="r7">
+        <center>
+            <p class="activity"> OUR ACTIVITY</p>
+            <img src="book.png" style="width: 25%;">
+        </center>
+        <div class="box4">
+            <center>
+                <h6 class="sports"> SPORTS MEET-SHAURYA</h6>
+            </center>
+            <p class="sports1">Sports are the essential parts of the physical &nbsp;&nbsp;as well as mental development
+                of human beings. We take the opportunity to arrange sports meet in our campus in which the students from
+                other colleges
+            </p>
+            <center><button class="btn11"> Read More</button></center>
+        </div>
+        <div class="box5">
+            <center>
+                <h6 class="sports"> FRESHERS PARTY- SRIJAN </h6>
+            </center>
+            <p class="sports1"> &nbsp; &nbsp; Freshers party is the indication of new beginning of students in the
+                institution. Our &nbsp;&nbsp;&nbsp;&nbsp;
+                organising team is well experienced in organising such kind of events. These parties
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;are
+                fully enjoyable
+            </p>
+            <center><button class="btn11"> Read More</button></center>
+        </div>
+        <div class="box6">
+            <center>
+                <h6 class="sports">JOB FAIR- SAKSHAM</h6>
+            </center>
+            <p class="sports1">It is the very important activity because it comes with lots of hopes and opportunities
+                for the students to get selected in big companies. The students come across with numerous options
+                regarding their training</p>
+            <center><button class="btn11"> Read More</button></center>
+        </div>
+    </div>
+
+    <div class="r8">
+
+
+        <p class="institute">INSTITUTE FACILITY</p>
+        <center><img src="book.png" style="width: 35%;"></center>
+
+        <div class="r8a">
+            <center>
+                <p class="border2"> ABOUT US </p>
+            </center><br>
+            <P class="about">S R Group was started with the establishment of &nbsp;&nbsp;&nbsp;S R Institute of
+                Management and Technology <center>offering</center>
+            </P>
+            <center><button class="btn12"> READ MORE</button></center><br>
+        </div>
+
+
+
+
+        <div class="r8b">
+            <center>
+                <p class="border3"> WORKSHOP </p>
+            </center><br>
+            <p class="about">The department also houses the following workshops: 1. Machine Shop 2. Foundry Shop 3.
+                <center> Smithy Sho</center>
+            </p>
+            <center><button class="btn12"> READ MORE</button></center><br>
+        </div>
+        <div class="r8c">
+            <center>
+                <p class="border2"> LIBRARY</p>
+            </center><br>
+            <p class="about">The MechanicaL department is enriched with following Labs: Engineering Mechanics lab
+                <center> Material S</center>
+            </p>
+            <center><button class="btn12"> READ MORE</button></center><br>
+
+        </div>
+    </div>
+
+
+    <div class="r9">
+        <div class="r9a">
+            <p class="why"> WHY US?</p>
+            <p class="st">1ST POSITION</p>
+            <p class="an">An Institute where Miss. Sushma Singh has bagged a milestone achievement; 1st Position in UP
+                -2013.</p>
+            <p class="st">FACULTY FROM IIT'S & NIT'S</p>
+            <p class="an">An Institute that has a good reputation and name with 350+ stable facuLty from IIT's & NIT�s.
+                Faculty who are dedicated, hard working and passionate towards success and who can be role models for
+                you.</p>
+            <p class="st">100% MARKS</p>
+            <p class="an">Never before happening once again, sparkling star Kartik Sharma brought Laurels to the
+                institution got 100% marks in Mathematics.</p>
+            <p class="st">INDUSTRIAL VISITS</p>
+            <p class="an">Both the under graduate and post graduate students at the S R Group routinely participate in
+                industry visits throughout the academic session. These destinations, which are usually Located suitably
+                for day trips, are carefully chosen by department heads to add relevance and constructive meaning to the
+                effort.</p><br><br><br>
+        </div>
+        <div class="r9b">
+            <p class="call">CALL US</p>
+            <button class="btn13"><i class="fa fa-phone icon"></i>&nbsp; +91-97930-00004</button><br>
+            <button class="btn13"> <i class="fa fa-phone icon"></i>&nbsp;+91-97930-00005</button><br>
+            <button class="btn13"><i class="fa fa-phone icon"></i>&nbsp; +91-97930-00006</button><br>
+        </div>
+
+    </div>
+
+    <div class="r10">
+        <br>
+        <center>
+            <p><span class="cl1">COLLEGE</span> &nbsp; <span class="v1"> 360 VIEW </span> </p>
+            <img src="book.png" style="width: 25%;">
+        </center>
+        <br><br><br> <br><br><br> <br><br><br> <br><br>
+        <p align="center">No Street View available.</p>
+    </div>
+    <div style="color: white;"></div>
+    <div class="r11">
+        <div class="TPS">
+            <p>TOP PLACED STUDENTS</p>
+            <img src="book.png" style="width: 30%;">
+        </div>
+        <div class="img10">
+            <img src="abdullah.png" style="width: 100%;height: 50%;">
+            <p align="center" style="background-color: white;;border: solid white 1px;width: 60%;margin-left: 60px;">
+                ABDULLAH KHAN</p>
+            <p align="center">IT, 2015-2020</p><br>
+            <img src="farhat.png" style="width: 70px;margin-left: 110px;">
+            <button
+                style="margin-left: 70px;padding: 10px;font-size: 15px;border-radius: 30px;background-color: yellow;">VIEW
+                DETAILS</button>
+
+        </div>
+        <div class="img10">
+            <img src="deepank.png" style="width: 100%;height: 50%;">
+            <p align="center" style="background-color: white;border: solid white 1px;width: 80%;margin-left: 30px;">
+                DEEPANK SRIVASTAVA</p>
+            <p align="center">IT, 2015-2020</p><br>
+            <img src="investor.png" style="width: 70px;margin-left: 110px;">
+            <button
+                style="margin-left: 75px;padding: 10px;font-size: 15px;border-radius: 30px;background-color: yellow;">VIEW
+                DETAILS</button>
+        </div>
+        <div class="img10">
+            <img src="anas.png" style="width: 100%;height: 50%;">
+            <p align="center" style="background-color: white;border: solid white 1px;width: 60%;margin-left: 60px;">
+                MOHD. ANAS</p>
+            <p align="center">IT, 2015-2020</p><br>
+            <img src="mcomp.png" style="width: 70px;margin-left: 110px;">
+            <button
+                style="margin-left: 75px;padding: 10px;font-size: 15px;border-radius: 30px;background-color: yellow;">VIEW
+                DETAILS</button>
+        </div>
+        <div class="img10">
+            <img src="sunny.png" style="width: 100%;height: 50%;">
+            <p align="center" style="background-color: white;;border: solid white 1px;width: 60%;margin-left: 70px;">
+                SANNI KUMAR</p>
+            <p align="center">IT, 2015-2020</p><br>
+            <img src="atmi.png" style="width: 70px;margin-left: 110px;">
+            <button
+                style="margin-left: 80px;padding: 10px;font-size: 15px;border-radius: 30px;background-color: yellow;">VIEW
+                DETAILS</button>
+        </div>
+        <br><br><br>
+    </div>
+
+    <div class="lgi">
+        <p style="margin-left: 475px;"> LIFE IN </p>
+    </div>
+    &nbsp;
+    <div class="lgi2">
+        SR GROUP OF INSTITUTIONS<br>
+    </div>
+    <div>
+        <img src="book.png" style="width: 45%;margin-left: 560px;padding-bottom: 50px;">
+    </div>
+
+    <div class="tms">
+        <div class="tms2">
+            <p>TESTIMONIALS</p>
+            <img src="book.png">
+        </div>
+        <div class="brd">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo inventore voluptatem explicabo nostrum?
+                Atque, doloremque velit! Asperiores eligendi accusamus ad? Et recusandae consectetur odio reprehenderit
+                repudiandae itaque commodi, nam ducimus.</p>
+        </div>
+    </div>
+    <div class="ptc">
+        <div class="ptc1">
+            <span>
+                PLACEMENT IN
+            </span>
+        </div>
+        <div class="ptc2">
+            <span>
+                TOP COMPANIES
+            </span><br>
+        </div>
+        <img src="book.png" style="width: 30%; margin-left: 500px;">
+        <div class="logos">
+            <img class="lgs" src="acc.png">
+            <img class="lgs" src="aitel.png" alt="">
+            <img class="lgs" src="bigbazar.png" alt="">
+            <img class="lgs" src="paytm.png" alt="">
+            <img class="lgs" src="patanjali.png" alt="">
+            <img class="lgs" src="tata.png" alt="">
+            <img class="lgs" src="niit.png" alt="">
+            <img class="lgs" src="mahindra.png" alt="">
+            <img class="lgs" src="jabong.png" alt="">
+        </div>
+    </div>
+    <div class="ulcs">
+        <div class="ul">
+            <p style="font-size: 20px;">Useful Links</p><br><br><br>
+            <li>&nbsp;»&nbsp;Home</li>
+            <li>&nbsp;»&nbsp;About Us</li>
+            <li>&nbsp;»&nbsp;Download</li>
+            <br<>
+                <p style="margin-left: 20px;">৹&nbsp;»&nbsp;Our Prospectus</p>
+                <li>&nbsp;»&nbsp;Infrastructre</li>
+                <li>&nbsp;»&nbsp;Contact Us</li>
+        </div>
+        <div class="cs">
+            <p style="font-size: 20px;">Contact Us</p><br><br><br>
+            <p style="border-bottom: solid white 1px;padding-bottom: 15px;">NH-24, Sitapur Road, Bakshi ka Talab,
+                Lucknow-226201</p><br>
+
+            <p style="border-bottom: solid white 1px;padding-bottom: 15px;"><i class="fa fa-phone"
+                    style="color: aliceblue;"></i>&nbsp; 8299334783</p><br>
+
+            <p style="border-bottom: solid white 1px;padding-bottom: 15px;"><i class="fa fa-envelope"
+                    style="color: aliceblue;"></i>&nbsp;ankitmishra14798@gmail.com</p><br>
+        </div>
+    </div>
+    <div class="last">
+        <div class="last1">
+            SR Group Of Institutions © 2017 | All Rights Reserved | Privacy Policy
+        </div>
+        <div class="last2">
+            Designed & Developed by: CS/IT Department SRGI-Lucknow
+        </div>
+    </div>
+</body>
+
+</html>
